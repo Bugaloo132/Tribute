@@ -1,0 +1,112 @@
+* {
+    margin:0 auto;
+    box-sizing: border-box;
+    padding:0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24pt;
+    font-family: 'Lora', serif;
+}
+
+.Container {
+    width: 1200px;
+    height: 2350px;
+    background-color: rgba(0,0,0,.25);
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.Title {
+    width: 900px;
+    height: 100px;
+    background-color: rgba(0,0,0,.10);
+    text-align: center;
+    font-family: 'Lora', serif;
+    border-radius: 15px;
+
+}
+
+.Photo {
+    width: 900px;
+    height: 700px;
+    background-color: rgba(210,210,210);
+
+}
+
+.picture {
+    padding-left: 15px;
+}
+
+.Image {
+    display: inline-block;
+    width: 850px;
+}
+
+.Information {
+    width: 900px;
+    height: 1675px;
+    background-color: rgba(255,255,255);
+    padding: 15px 25px;
+
+}
+
+.Social {
+    width: 900px;
+    height: 75px;
+    background-color: rgba(0,0,0,.75);
+}
+
+.text {
+    width: 315px;
+    height: 25px;
+    margin-top: 50px;
+    float: right;
+    color: white;
+    background-color: rgba(0,0,0,.75);
+}
+
+.logo {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 12.5px;
+    align: center;
+}
+
+.year {
+    font-weight: bold;
+    font-size: 18pt;
+    margin-left: 22px;
+    font-family: 'Bitter', serif;
+
+}
+
+.description {
+    font-family: 'Bitter', serif;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
